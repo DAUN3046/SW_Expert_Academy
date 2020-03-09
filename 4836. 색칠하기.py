@@ -23,7 +23,6 @@ for test_case in range(1, T + 1):
                     else:
                         squareList[i][j] += 2
 
-        #print(squareList)
     for i in range(10): #count purple(num 3)
         for j in range(10):
             if squareList[i][j] == 3:
